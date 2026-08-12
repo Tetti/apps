@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LOC_MISSION" xml:space="preserve">
+    <value>завдання</value>
+  </data>
+  <data name="LOC_CITY_REPLACEMENT" xml:space="preserve">
+    <value>XXXX</value>
+  </data>
+  <data name="LOC_RIVER_REPLACEMENT" xml:space="preserve">
+    <value>XXXX</value>
+  </data>
+  <data name="LOC_COORDS_REPLACEMENT" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="LOC_DONE" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="LOC_DRAG_TO_START_EXTRACTION" xml:space="preserve">
+    <value>Перетягніть файли, щоб розпочати створення витягів</value>
+  </data>
+  <data name="LOC_TEMPLATE_WARNO" xml:space="preserve">
+    <value>Витяг з БР №{0}-дск від {1}.docx</value>
+  </data>
+  <data name="LOC_WARNO_EXTRACT_PROCESSING" xml:space="preserve">
+    <value>Створення витягів:
+{0}
+Відкпрацьовано: {1} з {2}</value>
+  </data>
+  <data name="LOC_WARNO_ID_ENDING_REGEX" xml:space="preserve">
+    <value>[\\\/]дск</value>
+  </data>
+  <data name="LOC_WARNO_TITLE_PARTS" xml:space="preserve">
+    <value>розпорядження,дск,окп,карта</value>
+  </data>
+  <data name="LOC_MISSION_CONTENT_TEMPLATE_TEXT" xml:space="preserve">
+    <value>%MISSION_CONTENT%</value>
+  </data>
+  <data name="LOC_APPROUVED_BY_TEMPLATE_TEXT" xml:space="preserve">
+    <value>%APPROUVED_BY%</value>
+  </data>
+  <data name="LOC_DATE_TEMPLATE_TEXT" xml:space="preserve">
+    <value>%DATE%</value>
+  </data>
+  <data name="LOC_WARNO_ID_TEMPLATE_TEXT" xml:space="preserve">
+    <value>%WARNO_ID%</value>
+  </data>
+  <data name="LOC_NUMBER_CHARACTER" xml:space="preserve">
+    <value>№</value>
+  </data>
+  <data name="LOC_WARNO_ID_ENDING_FILE" xml:space="preserve">
+    <value>дск</value>
+  </data>
+  <data name="LOC_LINES_TO_REMOVE_RECEPIENTS" xml:space="preserve">
+    <value>командиру,командирам</value>
+  </data>
+  <data name="LOC_POSSIBLE_X" xml:space="preserve">
+    <value>xXхХ</value>
+  </data>
+  <data name="LOC_POSSIBLE_Y" xml:space="preserve">
+    <value>yYуУ</value>
+  </data>
+  <data name="LOC_BRIGADE_VARIANTS" xml:space="preserve">
+    <value>82 десантно-штурмова бригада|82 десантно-штурмової бригади|82 одшбр</value>
+  </data>
+  <data name="LOC_DEPARTMENT_VARIANTS" xml:space="preserve">
+    <value>військова частина А2582|військової частини А2582|військової частини А2582</value>
+  </data>
+  <data name="LOC_PROBLEM_FILES" xml:space="preserve">
+    <value>Файли, що потребують уваги: {0}</value>
+  </data>
+  <data name="LOC_82BRIGADE" xml:space="preserve">
+    <value>82 окрема десантно-штурмова бригада&amp;82 окремої десантно-штурмової бригади&amp;82 одшбр</value>
+  </data>
+  <data name="LOC_82DEPARTMENT" xml:space="preserve">
+    <value>військова частина А2582&amp;військової частини А2582&amp; в/ч А2582</value>
+  </data>
+  <data name="LOC_82DEPARTMENT_SHORT" xml:space="preserve">
+    <value>в/ч А2582</value>
+  </data>
+  <data name="LOC_SUBDIVISION_SIGNS" xml:space="preserve">
+    <value>одшбр&amp;омбр&amp;огшбр&amp;ошп&amp;одшп&amp;оєбр&amp;опдбр&amp;отбр&amp;мбр&amp;одшб&amp;броп НГУ&amp;орб&amp;шб&amp;пдб&amp;ошбр</value>
+  </data>
+  <data name="LOC_ALLIED_SUBDIVISION_SUBSTITUTION" xml:space="preserve">
+    <value>XXXX</value>
+  </data>
+  <data name="LOC_ANY_LAT_CYR_SYMBOL_REGEX" xml:space="preserve">
+    <value>A-Za-zА-ЯІЄЇҐа-яієїґ</value>
+  </data>
+  <data name="LOC_ALL_CYR_REGEX" xml:space="preserve">
+    <value>А-ЯІЄЇҐа-яієїґ</value>
+  </data>
+  <data name="LOG_CYR_TO_LAT_CHARS" xml:space="preserve">
+    <value>AА&amp;BВ&amp;CС&amp;EЕ&amp;HН&amp;IІ&amp;KК&amp;MМ&amp;OО&amp;PР&amp;TТ&amp;XХ&amp;YУ&amp;aа&amp;cс&amp;eе&amp;iі&amp;oо&amp;pр&amp;xх&amp;yу</value>
+  </data>
+  <data name="LOG_CYR_TO_LAT_WORDS" xml:space="preserve">
+    <value>BIJIbHE:ВІЛЬНЕ&amp;CEPFIÏBKA,CEPTIÏBKA:СЕРГІЇВКА&amp;BAPBIHIBKA:БАРВІНІВКА&amp;BEPBOBE:ВЕРБОВЕ&amp;TIPKE:ГІРКЕ&amp;ETOPIBKA:ЄГОРІВКА&amp;3AIACHE,3AHIACHE,3AIIACHE:ЗАПАСНЕ&amp;KOHIAHI,KOIIAHI,KONIAHI:КОПАНІ&amp;HOBOCEJIIBKA:НОВОСЕЛІВКА&amp;IIPOTPEC:ПРОГРЕС&amp;HAPIBHE,YAPIBHE:ЧАРІВНЕ&amp;IOPKIBKA:ЮРКІВКА&amp;IIIMPOKE,LLIMPOKE:ШИРОКЕ&amp;KAPJIAIIII:КАРДАШІ&amp;AHJIPIÏBKA,AHJIPIIBKA:АНДРІЇВКА&amp;BNIIIHEBE:ВИШНЕВЕ&amp;TABPNJIIBKA:ГАВРИЛІВКА&amp;JOBPOIIACOBE,JIOBPOHACOBE:ДОБРОПАСОВЕ&amp;IINCAHIII:ПИСАНЦІ&amp;IIPOCAHA:ПРОСЯНА&amp;OPECTOIIIJIb,OPECTOHIIJIb:ОРЕСТОПІЛЬ&amp;TEPHOBE:ТЕРНОВЕ&amp;BOBUE,BOBYE:ВОВЧЕ&amp;JIICHE,JICHE,ЛICНЕ:ЛІСНЕ&amp;BOCKPECEHKA:ВОСКРЕСЕНКА&amp;HDKEHKA:НІЖЕНКА&amp;PIYHE,PIBHE:РІЧНЕ&amp;PO3IBKA:РОЗІВКА&amp;AHTOHIBKA:АНТОНІВКА&amp;HOBI:НОВІ&amp;JIIBPOBA:ДІБРОВА&amp;THXE:ТИХЕ&amp;IBAHIBKA:ІВАНІВКА&amp;OPIXOBE:ОРІХОВЕ&amp;TAPACIBKA:ТАРАСІВКА&amp;OJIEHIBKA:ОЛЕНІВКА&amp;OPJIM:ОРЛИ&amp;BEPXHA TEPCA:ВЕРХНЯ ТЕРСА&amp;3OPIBKA:ЗОРІВКА&amp;3AРІЧНЕ:ЗАРІЧНЕ&amp;JIEBAJIHE:ЛЕВАДНЕ?ШДГАВРИЛІВКА:ПІДГАВРИЛІВКА&amp;IOJIIIBKA:ЮЛІЇВКА&amp;CTEIIOBE:СТЕПОВЕ&amp;CTEIIHOFIPCbK:СТЕПНОГІРСЬК&amp;IIPNMOPCbKE:ПРИМОРСЬКЕ&amp;IIPEOBPAXEHKA:ПРЕОБРАЖЕНКА&amp;HOBOIIABJIIBKA:НОВОПАВЛІВКА&amp;HOBOOJIEKCAHJIPIBKA:НОВООЛЕКСАНДРІВКА&amp;HOBOAHJIPIIBKA:НОВОАНДРІЇВКА&amp;HATAJIIBKA:НАТАЛІВКА&amp;MAJIA TOKMAYKA:МАЛА ТОКМАЧКА&amp;KYIIIYTYM:КУШУГУМ&amp;BOJIA:ВОЛЯ&amp;KNPNYKOBE:КИРИЧКОВЕ&amp;KOJIOMIMIII:КОЛОМІЙЦІ&amp;PO3YMIBKA:РОЗУМІВКА</value>
+  </data>
+  <data name="LOC_WARNO_FIX_PROCESS" xml:space="preserve">
+    <value>Працюю з документом:\n
+{0}\nВиконано {1} з {2}</value>
+  </data>
+  <data name="LOC_MGRS_CONVERT_PROGRESS" xml:space="preserve">
+    <value>Працюю з документом:\n
+{0}\nВиконано {1} з {2}</value>
+  </data>
+  <data name="LOC_WARNO_FIX_START" xml:space="preserve">
+    <value>Перетягніть файли щоб розпочати виправлення документів</value>
+  </data>
+  <data name="LOC_WARNO_FIX_END" xml:space="preserve">
+    <value>Пох..</value>
+  </data>
+  <data name="LOC_DEFAULT_REGION_DATAS" xml:space="preserve">
+    <value>ЗАПОРІЖЖЯ_47,834434_35,167017&amp;ДНІПРО_48,467741_35,029755</value>
+  </data>
+</root>
