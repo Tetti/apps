@@ -2,14 +2,14 @@
 <AppInstaller
     xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
     Uri="https://tetti.github.io/apps/MapBrowser/MapBrowser.appinstaller"
-    Version="1.0.5.0">
+    Version="1.0.6.0">
 
   <MainPackage
       Name="com.companyname.mapbrowser"
       Publisher="CN=Adreamer_4"
-      Version="1.0.5.0"
+      Version="1.0.6.0"
       ProcessorArchitecture="x64"
-      Uri="https://tetti.github.io/apps/MapBrowser/MapBrowser_1.0.5.0_x64_Windows.msix" />
+      Uri="https://tetti.github.io/apps/MapBrowser/MapBrowser_1.0.6.0_x64_Windows.msix" />
 
   <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="0" />
