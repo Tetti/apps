@@ -9,7 +9,7 @@
       Publisher="CN=Adreamer_4"
       Version="1.0.9.0"
       ProcessorArchitecture="x64"
-      Uri="https://tetti.github.io/apps/MapBrowser/MapBrowser_1.0.9.0_x64_Windows.msix" />
+      Uri="https://tetti.github.io/apps/MapBrowser/MapBrowser_1.0.9.0_x64.msix" />
 
   <UpdateSettings>
     <OnLaunch HoursBetweenUpdateChecks="0" />
